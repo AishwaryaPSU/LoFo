@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "738900548052",
+    "firebase_url": "https://lofo-5aa89.firebaseio.com",
+    "project_id": "lofo-5aa89",
+    "storage_bucket": "lofo-5aa89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738900548052:android:8f29c592f58cd2f3",
+        "android_client_info": {
+          "package_name": "com.lofo.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738900548052-9bb7hgv1mbigjvhl8ejidh0s3i9qhds4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuDLMA-pi8PplxACNC1wqum_jiy01KaH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

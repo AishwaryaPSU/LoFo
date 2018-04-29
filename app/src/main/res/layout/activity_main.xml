@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lofo.application.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/userId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp"
+            android:ems="10"
+            android:hint="UserId"
+            android:inputType="textEmailAddress|textShortMessage" />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/userId"
+            android:layout_below="@+id/userId"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/userPassword"
+            android:layout_centerVertical="true"
+            android:text="Sign In" />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/signInBtn"
+            android:layout_alignEnd="@+id/userPassword"
+            android:text="Sign Up" />
+
+        <Button
+            android:id="@+id/fbLoginBtn"
+            style="@android:style/Widget.Material.Light.Button.Small"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/signInBtn"
+            android:layout_below="@+id/signInBtn"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/facebook" />
+
+        <Button
+            android:id="@+id/googleLoginBtn"
+            style="@android:style/Widget.Material.Light.Button.Small"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@+id/fbLoginBtn"
+            android:layout_alignEnd="@+id/signUpBtn"
+            android:background="@drawable/google" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="cursive"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:text="LoFo"
+            android:textColor="?android:attr/colorPressedHighlight"
+            android:textSize="60dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
